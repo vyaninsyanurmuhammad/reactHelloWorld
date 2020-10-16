@@ -1,15 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Form } from './containers/form';
+import { TodoList } from './containers/todoList';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Form/>
+        <TodoList></TodoList>
         <a
           className="App-link"
           href="https://reactjs.org"
